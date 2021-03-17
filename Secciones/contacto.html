@@ -16,15 +16,9 @@
 </head>
 
 <body>
-    <header>
-        <a class="logo" href="index.html">
-            <h1 class='titulo'>Esparta</h1>
-        </a>
-    </header>
-
-
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #2d132c;">
-        <a class="navbar-brand" href="../index.html">Esparta</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg bg-purple sticky-top">
+        <a class="navbar-brand" href="../index.html"><img class="navbar-logo" src="../assets/logo-esparta.png"
+                alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -38,26 +32,91 @@
                 <li class="navbar-nav mr-auto"><a class="nav-link active" href="contacto.html">Contacto</a></li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
+                <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
                 <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Buscar</button>
             </form>
         </div>
     </nav>
-    <div class="container_fluid">
+    <div class="container_fluid bg-black">
+        <div class="row justify-content-center contacto px-3">
+            <div class="col-12 col-md-6 text-white text-justify">
+                <h1 class="bg-purple p-3">Contacto</h1>
+                <p class="font-size-24">Para aquellos interesados en una asesoría de carácter más personal, podrán llenar el formulario y en breve uno de nuestros
+                    representantes se comunicará con ustedes para atender sus dudas.
+                </p>
+                <p class="font-size-24">Si lo desean también podrán recibir en su correo electrónico las últimas novedades de Esparta Fitness, para que puedan mantenerse
+                    al tanto con los últimos productos y servicios de nuestro catálogo.
+                </p>
+                <p class="font-size-24">Desde Esparta Fitness les agradecemos por elegirnos cada día.</p>
 
-        <div class="main">
+            </div>
+            <div class="text-white col-12 col-md-4 p-5 rounded-0 bg-purple">
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Nombre y Apellido</label>
+                        <input type="text" class="form-control" id="name" aria-describedby="emailHelp">
 
-            <img src="https://pbs.twimg.com/media/BxwbX02IQAAW3fH?format=jpg&name=small">
+                    </div>
+                    <div class="text-white">
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Correo Electrónico</label>
+                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
 
+                        </div>
+
+
+
+
+
+                        <div class="mb-3">
+                            <label for="telefono" class="form-label">Número Telefónico</label>
+                            <input type="number" class="form-control" id="telefono" aria-describedby="emailHelp">
+
+                        </div>
+
+
+                        <div class="mb-3">
+                            <label for="motivo" class="form-label">Deje un mensaje</label>
+                            <input type="text" class="form-control" id="motivo" aria-describedby="emailHelp">
+
+                        </div>
+
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Quiero que me notifiquen al Correo
+                                Electrónico</label>
+                        </div>
+                        <button type="submit" class="btn btn-outline-danger">Enviar</button>
+                </form>
+            </div>
         </div>
 
-
+        
     </div>
+    
+<footer>
+            <div class="row bg-purple justify-content-center text-center">
 
-    <footer class="textoBlanco">
-        <h2 class="textoRojo">Esparta</h2>
-        <h3 class="textoBlanco">Equipamiento y Fitness</h3>
-    </footer>
+
+                <div class="col-2 p-3">
+                    <a href="#"><img class="" src="../assets/facebook-3-64.ico"></a>
+                </div>
+
+                <div class="col-2  p-3">
+                    <a href="#"> <img class="" src="../assets/instagram-64.ico"></a>
+                </div>
+
+                <div class="col-2  p-3">
+                    <a href="#"><img class="" src="../assets/twitter-3-64.ico"></a>
+                </div>
+
+                <div class="col-2 p-3">
+                    <a href="#"><img class="" src="../assets/whatsapp-64.ico"></a>
+                </div>
+
+            </div>
+        </footer>
+
 
 </body>
 

@@ -11,314 +11,204 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="Css/style.css">
     <title>Esparta Fitness</title>
 </head>
 
 <body>
 
-    <header>
-        <a class="logo" href="index.html">
-            <h1 class='header__logo'>Esparta</h1>
-        </a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-purple sticky-top">
+        <a class="navbar-brand" href="index.html"><img class="navbar-logo" src="assets/logo-esparta.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-
-        <nav class="navbar navbar-expand-lg navbar-dark header__nav">
-            <a class="navbar-brand" href="index.html">Esparta</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="navbar-nav mr-auto"><a class="nav-link active"
-                            href="secciones/articulos.html">Artículos</a>
-                    </li>
-                    <li class="navbar-nav mr-auto"><a class="nav-link active"
-                            href="Secciones/servicios.html">Servicios</a>
-                    </li>
-                    <li class="navbar-nav mr-auto"><a class="nav-link active"
-                            href="Secciones/sucursales.html">Sucursales</a></li>
-                    <li class="navbar-nav mr-auto"><a class="nav-link active"
-                            href="Secciones/contacto.html">Contacto</a>
-                    </li>
-                </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
-                    <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Buscar</button>
-                </form>
-            </div>
-        </nav>
-    </header>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="navbar-nav mr-auto"><a class="nav-link active" href="Secciones/articulos.html">Artículos</a>
+                </li>
+                <li class="navbar-nav mr-auto"><a class="nav-link active" href="Secciones/servicios.html">Servicios</a>
+                </li>
+                <li class="navbar-nav mr-auto"><a class="nav-link active"
+                        href="Secciones/sucursales.html">Sucursales</a></li>
+                <li class="navbar-nav mr-auto"><a class="nav-link active" href="Secciones/contacto.html">Contacto</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Buscar</button>
+            </form>
+        </div>
+    </nav>
     <main>
-        <div class="container-fluid">
+        <div class="container-fluid bg-black">
+            <div class="card bg-dark text-white home-intro">
+                <img class="card-img" src="assets/wallpaper_sentado.jpeg">
+                <div class="card-img-overlay">
+                    <div class="container-fluid text-justify">
+                        <div class="row">
+                            <div class="col-12 col-md-6 bg-black-shadow">
+                                <img class="card-title" src="assets/logo-esparta.png" alt="">
+                                <p class="card-text">Desde Esparta Fitness te ofrecemos todo para que puedas alcanzar
+                                    tus objetivos.
+                                    <ul>
+                                        <li>Entrenamiento</li>
+                                        <li>Nutrición</li>
+                                        <li>Salud y Bienestar</li>
+                                    </ul>
 
-            <div class="main">
-
-                <div class="main__ventas">
-                    <div>
-                        <img src="https://http2.mlstatic.com/D_NQ_NP_694369-MLA43956407351_102020-O.webp"
-                            alt="mancuerna">
-
-                        <h3 class="textoBlanco">Mancuernas 10kg</h3>
-                        <h4 class="textoVerde">$3.000</h4>
-                    </div>
-                    <div>
-                        <img src="https://http2.mlstatic.com/D_NQ_NP_694369-MLA43956407351_102020-O.webp"
-                            alt="mancuerna">
-
-                        <h3 class="textoBlanco">Mancuernas 10kg</h3>
-                        <h4 class="textoVerde">$3.000</h4>
-                    </div>
-                    <div>
-                        <img src="https://http2.mlstatic.com/D_NQ_NP_694369-MLA43956407351_102020-O.webp"
-                            alt="mancuerna">
-
-                        <h3 class="textoBlanco">Mancuernas 10kg</h3>
-                        <h4 class="textoVerde">$3.000</h4>
-                    </div>
-                    <div>
-                        <img src="https://http2.mlstatic.com/D_NQ_NP_694369-MLA43956407351_102020-O.webp"
-                            alt="mancuerna">
-
-                        <h3 class="textoBlanco">Mancuernas 10kg</h3>
-                        <h4 class="textoVerde">$3.000</h4>
-                    </div>
-                    <div>
-                        <img src="https://http2.mlstatic.com/D_NQ_NP_694369-MLA43956407351_102020-O.webp"
-                            alt="mancuerna">
-
-                        <h3 class="textoBlanco">Mancuernas 10kg</h3>
-                        <h4 class="textoVerde">$3.000</h4>
-                    </div>
-                    <div>
-                        <img src="https://http2.mlstatic.com/D_NQ_NP_694369-MLA43956407351_102020-O.webp"
-                            alt="mancuerna">
-
-                        <h3 class="textoBlanco">Mancuernas 10kg</h3>
-                        <h4 class="textoVerde">$3.000</h4>
-                    </div>
-                    <div>
-                        <img src="https://http2.mlstatic.com/D_NQ_NP_694369-MLA43956407351_102020-O.webp"
-                            alt="mancuerna">
-
-                        <h3 class="textoBlanco">Mancuernas 10kg</h3>
-                        <h4 class="textoVerde">$3.000</h4>
-                    </div>
-                    <div>
-                        <img src="https://http2.mlstatic.com/D_NQ_NP_694369-MLA43956407351_102020-O.webp"
-                            alt="mancuerna">
-
-                        <h3 class="textoBlanco">Mancuernas 10kg</h3>
-                        <h4 class="textoVerde">$3.000</h4>
-                    </div>
-                    <div>
-                        <img src="https://http2.mlstatic.com/D_NQ_NP_694369-MLA43956407351_102020-O.webp"
-                            alt="mancuerna">
-
-                        <h3 class="textoBlanco">Mancuernas 10kg</h3>
-                        <h4 class="textoVerde">$3.000</h4>
-                    </div>
-                    <div>
-                        <img src="https://http2.mlstatic.com/D_NQ_NP_694369-MLA43956407351_102020-O.webp"
-                            alt="mancuerna">
-
-                        <h3 class="textoBlanco">Mancuernas 10kg</h3>
-                        <h4 class="textoVerde">$3.000</h4>
-                    </div>
-                    <div>
-                        <img src="https://http2.mlstatic.com/D_NQ_NP_694369-MLA43956407351_102020-O.webp"
-                            alt="mancuerna">
-
-                        <h3 class="textoBlanco">Mancuernas 10kg</h3>
-                        <h4 class="textoVerde">$3.000</h4>
-                    </div>
-                    <div>
-                        <img src="https://http2.mlstatic.com/D_NQ_NP_694369-MLA43956407351_102020-O.webp"
-                            alt="mancuerna">
-
-                        <h3 class="textoBlanco">Mancuernas 10kg</h3>
-                        <h4 class="textoVerde">$3.000</h4>
-                    </div>
-                    <div>
-                        <img src="https://http2.mlstatic.com/D_NQ_NP_694369-MLA43956407351_102020-O.webp"
-                            alt="mancuerna">
-
-                        <h3 class="textoBlanco">Mancuernas 10kg</h3>
-                        <h4 class="textoVerde">$3.000</h4>
-                    </div>
-                    <div>
-                        <img src="https://http2.mlstatic.com/D_NQ_NP_694369-MLA43956407351_102020-O.webp"
-                            alt="mancuerna">
-
-                        <h3 class="textoBlanco">Mancuernas 10kg</h3>
-                        <h4 class="textoVerde">$3.000</h4>
-                    </div>
-                    <div>
-                        <img src="https://http2.mlstatic.com/D_NQ_NP_694369-MLA43956407351_102020-O.webp"
-                            alt="mancuerna">
-
-                        <h3 class="textoBlanco">Mancuernas 10kg</h3>
-                        <h4 class="textoVerde">$3.000</h4>
-                    </div>
-                    <div>
-                        <img src="https://http2.mlstatic.com/D_NQ_NP_694369-MLA43956407351_102020-O.webp"
-                            alt="mancuerna">
-
-                        <h3 class="textoBlanco">Mancuernas 10kg</h3>
-                        <h4 class="textoVerde">$3.000</h4>
-                    </div>
-                    <div>
-                        <img src="https://http2.mlstatic.com/D_NQ_NP_694369-MLA43956407351_102020-O.webp"
-                            alt="mancuerna">
-
-                        <h3 class="textoBlanco">Mancuernas 10kg</h3>
-                        <h4 class="textoVerde">$3.000</h4>
-                    </div>
-                    <div>
-                        <img src="https://http2.mlstatic.com/D_NQ_NP_694369-MLA43956407351_102020-O.webp"
-                            alt="mancuerna">
-
-                        <h3 class="textoBlanco">Mancuernas 10kg</h3>
-                        <h4 class="textoVerde">$3.000</h4>
-                    </div>
-                    <div>
-                        <img src="https://http2.mlstatic.com/D_NQ_NP_694369-MLA43956407351_102020-O.webp"
-                            alt="mancuerna">
-
-                        <h3 class="textoBlanco">Mancuernas 10kg</h3>
-                        <h4 class="textoVerde">$3.000</h4>
-                    </div>
-                    <div>
-                        <img src="https://http2.mlstatic.com/D_NQ_NP_694369-MLA43956407351_102020-O.webp"
-                            alt="mancuerna">
-
-                        <h3 class="textoBlanco">Mancuernas 10kg</h3>
-                        <h4 class="textoVerde">$3.000</h4>
-                    </div>
-                    <div>
-                        <img src="https://http2.mlstatic.com/D_NQ_NP_694369-MLA43956407351_102020-O.webp"
-                            alt="mancuerna">
-
-                        <h3 class="textoBlanco">Mancuernas 10kg</h3>
-                        <h4 class="textoVerde">$3.000</h4>
-                    </div>
-                    <div>
-                        <img src="https://http2.mlstatic.com/D_NQ_NP_694369-MLA43956407351_102020-O.webp"
-                            alt="mancuerna">
-
-                        <h3 class="textoBlanco">Mancuernas 10kg</h3>
-                        <h4 class="textoVerde">$3.000</h4>
-                    </div>
-                    <div>
-                        <img src="https://http2.mlstatic.com/D_NQ_NP_694369-MLA43956407351_102020-O.webp"
-                            alt="mancuerna">
-
-                        <h3 class="textoBlanco">Mancuernas 10kg</h3>
-                        <h4 class="textoVerde">$3.000</h4>
-                    </div>
-                    <div>
-                        <img src="https://http2.mlstatic.com/D_NQ_NP_694369-MLA43956407351_102020-O.webp"
-                            alt="mancuerna">
-
-                        <h3 class="textoBlanco">Mancuernas 10kg</h3>
-                        <h4 class="textoVerde">$3.000</h4>
-                    </div>
-                    <div>
-                        <img src="https://http2.mlstatic.com/D_NQ_NP_694369-MLA43956407351_102020-O.webp"
-                            alt="mancuerna">
-
-                        <h3 class="textoBlanco">Mancuernas 10kg</h3>
-                        <h4 class="textoVerde">$3.000</h4>
-                    </div>
-                    <div>
-                        <img src="https://http2.mlstatic.com/D_NQ_NP_694369-MLA43956407351_102020-O.webp"
-                            alt="mancuerna">
-
-                        <h3 class="textoBlanco">Mancuernas 10kg</h3>
-                        <h4 class="textoVerde">$3.000</h4>
-                    </div>
-                    <div>
-                        <img src="https://http2.mlstatic.com/D_NQ_NP_694369-MLA43956407351_102020-O.webp"
-                            alt="mancuerna">
-
-                        <h3 class="textoBlanco">Mancuernas 10kg</h3>
-                        <h4 class="textoVerde">$3.000</h4>
-                    </div>
-                    <div>
-                        <img src="https://http2.mlstatic.com/D_NQ_NP_694369-MLA43956407351_102020-O.webp"
-                            alt="mancuerna">
-
-                        <h3 class="textoBlanco">Mancuernas 10kg</h3>
-                        <h4 class="textoVerde">$3.000</h4>
-                    </div>
-                    <div>
-                        <img src="https://http2.mlstatic.com/D_NQ_NP_694369-MLA43956407351_102020-O.webp"
-                            alt="mancuerna">
-
-                        <h3 class="textoBlanco">Mancuernas 10kg</h3>
-                        <h4 class="textoVerde">$3.000</h4>
-                    </div>
-                    <div>
-                        <img src="https://http2.mlstatic.com/D_NQ_NP_694369-MLA43956407351_102020-O.webp"
-                            alt="mancuerna">
-
-                        <h3 class="textoBlanco">Mancuernas 10kg</h3>
-                        <h4 class="textoVerde">$3.000</h4>
-                    </div>
-                    <div>
-                        <img src="https://http2.mlstatic.com/D_NQ_NP_694369-MLA43956407351_102020-O.webp"
-                            alt="mancuerna">
-
-                        <h3 class="textoBlanco">Mancuernas 10kg</h3>
-                        <h4 class="textoVerde">$3.000</h4>
+                                </p>
+                                <a href="#saber-mas"><button type="button" name="" id="" class="btn btn-danger my-3"
+                                        btn-lg btn-block">Quiero
+                                        saber más</button></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <p class="main_articulo--rojo ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum tempore
-                    doloribus officiis at animi ipsam. Suscipit, sunt! Impedit corporis corrupti, quo, sunt
-                    obcaecati blanditiis iusto optio repellat quia autem odio.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Est cumque eum excepturi eaque
-                    dolorem
-                    sed dolor. Delectus quam, rem quas debitis quisquam eaque nihil ut officia? Magni dolor
-                    asperiores ducimus.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam velit perferendis ipsam ab
-                    eius
-                    praesentium magni voluptates nesciunt atque provident modi aliquam, esse culpa aliquid,
-                    dolor
-                    dolorum nisi quidem mollitia?
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero ullam molestiae odio
-                    exercitationem enim nemo molestias nostrum suscipit laboriosam, explicabo sit eligendi
-                    accusamus
-                    voluptas? Quam nesciunt ducimus totam quibusdam dolore!
-                </p>
-                <p class="main__articulo--azul">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Necessitatibus,
-                    iusto. Id, rerum. Suscipit non obcaecati ex maiores fugit corrupti repudiandae vel pariatur
-                    nisi
-                    unde? Inventore accusantium porro id illum explicabo!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, non laudantium dolore
-                    explicabo adipisci corporis est omnis architecto. Nobis iste amet ex magnam error laborum
-                    animi
-                    nam natus accusamus dicta?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, voluptatem officiis
-                    molestiae
-                    corporis nisi nesciunt similique! Dolorem quo voluptas pariatur placeat quibusdam delectus
-                    fugiat? Rem facere voluptas beatae excepturi est?
-                </p>
+            </div>
 
+            <div class="home-intro2 text-white p-3">
+                <img class="card-title" src="assets/logo-esparta.png" alt="">
+                <p class="card-text">Desde Esparta Fitness te ofrecemos todo para que puedas alcanzar
+                    tus objetivos.
+                    <ul>
+                        <li>Entrenamiento</li>
+                        <li>Nutrición</li>
+                        <li>Salud y Bienestar</li>
+                    </ul>
 
+                </p>
+                <a href="#saber-mas"><button type="button" name="" id="" class="btn btn-danger my-3" btn-lg
+                        btn-block">Quiero
+                        saber más</button></a>
+
+            </div>
+        </div>
+        <div id='saber-mas' class="row p-5 bg-purple justify-content-center">
+
+            <div class="col-12 text-white text-center">
+                <h2>¡Conocé nuestros servicios!</h2>
+            </div>
+            <div class="col-2 col-lg-1 mt-3">
+                <img class='mw-100' src="assets/flecha-abajo.png">
 
             </div>
         </div>
 
+        <div class="container-fluid bg-black menu">
+
+            <div class="row">
+                <a href="Secciones/sucursales.html">
+                    <div class="col-6 col-lg-4 p-1 hover-grow">
+                        <div class="card bg-dark text-white ">
+                            <img class="card-img" src="assets/carousel1.jpg">
+                            <div class="card-img-overlay2">
+                                <h3 class="card-title">Entrenamiento</h3>
+
+                            </div>
+                        </div>
+                </a>
+            </div>
+
+            <a href="secciones/servicios.html#seguimiento-nutricional">
+                <div class="col-6 col-lg-4 p-1  hover-grow ">
+                    <div class="card bg-dark text-white ">
+                        <img class="card-img" src="assets/home-2-nutricion.jpg">
+                        <div class="card-img-overlay2">
+                            <h3 class="card-title">Nutrición</h3>
+
+                        </div>
+                    </div>
+            </a>
+        </div>
+
+
+        <div class="col-6 col-lg-4 p-1 hover-grow">
+            <a href="Secciones/articulos.html">
+                <div class="card bg-dark text-white ">
+                    <img class="card-img" src="assets/home-3-equipo.jpg">
+                    <div class="card-img-overlay2">
+                        <h3 class="card-title">Equipamiento</h3>
+
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-6 col-lg-4 p-1 hover-grow">
+            <a href="Secciones/servicios.html#home-workout">
+                <div class="card bg-dark text-white ">
+                    <img class="card-img" src="assets/servicio-3-home.png">
+                    <div class="card-img-overlay2">
+                        <h3 class="card-title">Rutina en casa</h3>
+
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-6 col-lg-4 p-1  hover-grow ">
+            <a href="Secciones/servicios.html#personal-trainer">
+                <div class="card bg-dark text-white ">
+                    <img class="card-img" src="assets/home-6-personal.jpg">
+                    <div class="card-img-overlay2">
+                        <h3 class="card-title">Personal training</h3>
+
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-6 col-lg-4 p-1  hover-grow ">
+            <a href="Secciones/sucursales.html#crossfit">
+                <div class="card bg-dark text-white ">
+                    <img class="card-img" src="assets/home-5-cross.jpg">
+                    <div class="card-img-overlay2">
+                        <h3 class="card-title">Crossfit</h3>
+
+                    </div>
+                </div>
+            </a>
+        </div>
+
+
+
+
+
+        </div>
+
+
+        <footer>
+            <div class="row bg-purple justify-content-center text-center">
+
+
+                <div class="col-2 p-3">
+                    <a href="#"><img class="" src="assets/facebook-3-64.ico"></a>
+                </div>
+
+                <div class="col-2  p-3">
+                    <a href="#"> <img class="" src="assets/instagram-64.ico"></a>
+                </div>
+
+                <div class="col-2  p-3">
+                    <a href="#"><img class="" src="assets/twitter-3-64.ico"></a>
+                </div>
+
+                <div class="col-2 p-3">
+                    <a href="#"><img class="" src="assets/whatsapp-64.ico"></a>
+                </div>
+
+            </div>
+
+        </footer>
+
+
+
+
+
 
     </main>
-
-    <footer>
-        <h2 class="footer__logo">Esparta</h2>
-    </footer>
-    </div>
 </body>
 
 </html>
